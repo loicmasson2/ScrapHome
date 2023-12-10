@@ -1,1 +1,7 @@
 ./venv
+.idea
+
+./packages/*/.idea
+
+./packages/frontend/.nuxt
+./packages/frontend/node_modules

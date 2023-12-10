@@ -1,6 +1,7 @@
 import requests
 import json
 from bs4 import BeautifulSoup
+import re
 
 home_class = "Lloosjx"
 home_link_class = "e1re311t2"
@@ -12,14 +13,13 @@ def get_ads(soup):
         home_link = home.find("a", class_=home_link_class)
         home_summary = home.find("h5")
         home_price = home.find_all("h6")[0].next_sibling
-        home_size = home.find_all("h6")[1].next_sibling
         home_year = home.find_all("h6")[2].next_sibling
+        stripped_home_price = "".join(home_price.text.split())
         results.append({
-            "home_link": home_link['href'],
-            "home_summary": home_summary.text,
-            "home_price": home_price.text,
-            "home_size": home_size.text,
-            "home_year": home_year.text
+            "link": home_link['href'],
+            "summary": home_summary.text,
+            "price": re.findall('[0-9]\w+', stripped_home_price)[0],
+            "year": home_year.text
         })
     return results
 
