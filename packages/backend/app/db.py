@@ -22,6 +22,7 @@ class Home(ormar.Model):
     summary: str = ormar.String(max_length=128)
     size: int = ormar.Integer()
     price: int = ormar.Integer()
+    predicted_price: int = ormar.Integer(default=0)
     year: int = ormar.Integer()
     rooms: int = ormar.Integer()
     address: str = ormar.String(max_length=128)

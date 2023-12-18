@@ -1,5 +1,17 @@
 <script setup lang="ts">
-const {data} = await useFetch('http://127.0.0.1:8008/homes')
+const {data} : Array<Home> = await useFetch('http://127.0.0.1:8008/homes')
+interface Image {
+  [key: number]: {
+    id:number,
+    uri:string
+  }
+}
+interface Home {
+  id: number;
+  summary: string;
+  price: number
+  iamges: Image[]
+}
 </script>
 
 <template>
@@ -42,6 +54,12 @@ const {data} = await useFetch('http://127.0.0.1:8008/homes')
                 </span>
                 </div>
               </div>
+              <div>
+                <h3>Predicted price</h3>
+                <span>
+                  {{ home.predicted_price}}
+                </span>
+              </div>
 
             </div>
           </div>
@@ -58,9 +76,13 @@ const {data} = await useFetch('http://127.0.0.1:8008/homes')
         >
           <div v-for="home in data">
             <MapboxDefaultMarker
-                :marker-id="home.id"
+                :marker-id="String(home.id)"
+                :options="{
+                  color: home.predicted_price > home.price ? 'green' : 'red'
+                }"
                 :lnglat="{ lng: 	home.geolocation.longitude, lat: 	home.geolocation.latitude}"
-            />
+            >
+            </MapboxDefaultMarker>
           </div>
         </MapboxMap>
       </div>

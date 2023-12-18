@@ -19,10 +19,10 @@ for home in data:
 
     # Extract the location that is hidden in the window object of the browser
     scripts = soup.find_all("script")
-    start = 'geoCode'
-    end = 'country'
+    start = "geoCode"
+    end = "country"
     s = scripts[1].text
-    latitude_longitude = s[s.find(start) + (len(start) + 2):s.find(end) - 2]
+    latitude_longitude = s[s.find(start) + (len(start) + 2) : s.find(end) - 2]
     home["geolocation"] = json.loads(latitude_longitude)
     print("GEOLOCATION DONE")
 
@@ -35,19 +35,22 @@ for home in data:
         if header.text.lower() in important_fields:
             if header.text.lower() == "sijainti":
                 home["address"] = header.find_next().text
-                home["postcode"] = re.findall('[0-9]\w+', header.find_next().text)[0]
+                # TODO something is wrong here - sometimes it gets 6 or 7B from address
+                home["postcode"] = re.findall("[0-9]\w+", header.find_next().text)[0]
             if header.text.lower() == "huoneita":
-                home["rooms"] = re.findall('[0-9]+', header.find_next().text)[0]
+                home["rooms"] = re.findall("[0-9]+", header.find_next().text)[0]
             if header.text.lower() == "asuintilojen pinta-ala":
-                home["size"] = re.findall('[0-9]\w+', header.find_next().text)[0]
+                home["size"] = re.findall("[0-9]\w+", header.find_next().text)[0]
             if header.text.lower() == "kohdenumero":
-                home["id"] = re.findall('[0-9]\w+', header.find_next().text)[0]
+                home["id"] = re.findall("[0-9]\w+", header.find_next().text)[0]
 
     print("MORE INFO DONE")
 
     # Can only extract images stored in windows object
     # as the list of images is loaded on the fly
-    image_url = test_url[:test_url.find("?")] + '/kuvat' + test_url[test_url.find("?"):]
+    image_url = (
+        test_url[: test_url.find("?")] + "/kuvat" + test_url[test_url.find("?") :]
+    )
     print(image_url)
     new_page = requests.get(image_url)
     new_soup = BeautifulSoup(new_page.content, "html.parser")
@@ -60,12 +63,14 @@ for home in data:
     # easier that way to just pick the 1st occurrence
     substring = s[start_index:]
     end_of_object = substring.find('}}},"')
-    full_images_string = "{"+substring[:end_of_object+3]+"}"
+    full_images_string = "{" + substring[: end_of_object + 3] + "}"
     home["images"] = json.loads(full_images_string)
     print("IMAGES INFO DONE")
-    print("====================================================================================")
+    print(
+        "===================================================================================="
+    )
 
     time.sleep(1)
 
-with open('moredata.json', 'w') as f:
+with open("moredata.json", "w") as f:
     json.dump(data, f)

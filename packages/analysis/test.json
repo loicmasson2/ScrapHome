@@ -1,0 +1,1202 @@
+[
+  {
+    "size": "153",
+    "year": "1979",
+    "rooms": "5",
+    "price": "725000",
+    "predicted_price": "725000.0",
+    "id": "80337425"
+  },
+  {
+    "size": "88",
+    "year": "2020",
+    "rooms": "4",
+    "price": "386000",
+    "predicted_price": "386000.0",
+    "id": "20136296"
+  },
+  {
+    "size": "114",
+    "year": "2023",
+    "rooms": "5",
+    "price": "469000",
+    "predicted_price": "469000.0",
+    "id": "30569773"
+  },
+  {
+    "size": "141",
+    "year": "2020",
+    "rooms": "5",
+    "price": "595000",
+    "predicted_price": "597220.0",
+    "id": "80337085"
+  },
+  {
+    "size": "142",
+    "year": "2003",
+    "rooms": "5",
+    "price": "590000",
+    "predicted_price": "586100.0",
+    "id": "20341139"
+  },
+  {
+    "size": "146",
+    "year": "2014",
+    "rooms": "4",
+    "price": "709000",
+    "predicted_price": "700660.0",
+    "id": "20065116"
+  },
+  {
+    "size": "100",
+    "year": "1941",
+    "rooms": "5",
+    "price": "520000",
+    "predicted_price": "514060.0",
+    "id": "20252279"
+  },
+  {
+    "size": "180",
+    "year": "2002",
+    "rooms": "5",
+    "price": "489000",
+    "predicted_price": "494300.0",
+    "id": "2255642"
+  },
+  {
+    "size": "143",
+    "year": "2009",
+    "rooms": "5",
+    "price": "525000",
+    "predicted_price": "531380.0",
+    "id": "80335290"
+  },
+  {
+    "size": "157",
+    "year": "2005",
+    "rooms": "5",
+    "price": "675000",
+    "predicted_price": "662340.0",
+    "id": "21872824"
+  },
+  {
+    "size": "127",
+    "year": "2024",
+    "rooms": "5",
+    "price": "580000",
+    "predicted_price": "580000.0",
+    "id": "21678295"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "63167620"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "44884329"
+  },
+  {
+    "size": "124",
+    "year": "2018",
+    "rooms": "4",
+    "price": "595000",
+    "predicted_price": "594696.0",
+    "id": "20219095"
+  },
+  {
+    "size": "126",
+    "year": "2019",
+    "rooms": "5",
+    "price": "449000",
+    "predicted_price": "454440.0",
+    "id": "80336554"
+  },
+  {
+    "size": "160",
+    "year": "1995",
+    "rooms": "4",
+    "price": "568000",
+    "predicted_price": "568000.0",
+    "id": "555932"
+  },
+  {
+    "size": "155",
+    "year": "1994",
+    "rooms": "4",
+    "price": "378000",
+    "predicted_price": "386420.0",
+    "id": "564121"
+  },
+  {
+    "size": "125",
+    "year": "1995",
+    "rooms": "5",
+    "price": "585000",
+    "predicted_price": "585000.0",
+    "id": "20617600"
+  },
+  {
+    "size": "111",
+    "year": "1995",
+    "rooms": "5",
+    "price": "618000",
+    "predicted_price": "615020.0",
+    "id": "80335485"
+  },
+  {
+    "size": "100",
+    "year": "2024",
+    "rooms": "4",
+    "price": "499000",
+    "predicted_price": "498400.0",
+    "id": "2255662"
+  },
+  {
+    "size": "94",
+    "year": "2020",
+    "rooms": "4",
+    "price": "635000",
+    "predicted_price": "635000.0",
+    "id": "21822292"
+  },
+  {
+    "size": "98",
+    "year": "2024",
+    "rooms": "4",
+    "price": "469000",
+    "predicted_price": "469600.0",
+    "id": "66092628"
+  },
+  {
+    "size": "135",
+    "year": "1993",
+    "rooms": "5",
+    "price": "799000",
+    "predicted_price": "799000.0",
+    "id": "77676"
+  },
+  {
+    "size": "150",
+    "year": "2002",
+    "rooms": "4",
+    "price": "575000",
+    "predicted_price": "577580.0",
+    "id": "20118604"
+  },
+  {
+    "size": "139",
+    "year": "1951",
+    "rooms": "5",
+    "price": "418000",
+    "predicted_price": "425620.0",
+    "id": "2254354"
+  },
+  {
+    "size": "107",
+    "year": "2011",
+    "rooms": "4",
+    "price": "419900",
+    "predicted_price": "424202.0",
+    "id": "20632415"
+  },
+  {
+    "size": "125",
+    "year": "1979",
+    "rooms": "5",
+    "price": "325000",
+    "predicted_price": "334480.0",
+    "id": "80335510"
+  },
+  {
+    "size": "124",
+    "year": "2024",
+    "rooms": "5",
+    "price": "669000",
+    "predicted_price": "669000.0",
+    "id": "60290166"
+  },
+  {
+    "size": "129",
+    "year": "2024",
+    "rooms": "5",
+    "price": "662000",
+    "predicted_price": "658720.0",
+    "id": "58963189"
+  },
+  {
+    "size": "104",
+    "year": "2024",
+    "rooms": "4",
+    "price": "579800",
+    "predicted_price": "578184.0",
+    "id": "21846994"
+  },
+  {
+    "size": "153",
+    "year": "1979",
+    "rooms": "5",
+    "price": "725000",
+    "predicted_price": "725000.0",
+    "id": "80337425"
+  },
+  {
+    "size": "88",
+    "year": "2020",
+    "rooms": "4",
+    "price": "386000",
+    "predicted_price": "386000.0",
+    "id": "20136296"
+  },
+  {
+    "size": "114",
+    "year": "2023",
+    "rooms": "5",
+    "price": "469000",
+    "predicted_price": "469000.0",
+    "id": "30569773"
+  },
+  {
+    "size": "141",
+    "year": "2020",
+    "rooms": "5",
+    "price": "595000",
+    "predicted_price": "597220.0",
+    "id": "80337085"
+  },
+  {
+    "size": "142",
+    "year": "2003",
+    "rooms": "5",
+    "price": "590000",
+    "predicted_price": "586100.0",
+    "id": "20341139"
+  },
+  {
+    "size": "146",
+    "year": "2014",
+    "rooms": "4",
+    "price": "709000",
+    "predicted_price": "700660.0",
+    "id": "20065116"
+  },
+  {
+    "size": "100",
+    "year": "1941",
+    "rooms": "5",
+    "price": "520000",
+    "predicted_price": "514060.0",
+    "id": "20252279"
+  },
+  {
+    "size": "180",
+    "year": "2002",
+    "rooms": "5",
+    "price": "489000",
+    "predicted_price": "494300.0",
+    "id": "2255642"
+  },
+  {
+    "size": "143",
+    "year": "2009",
+    "rooms": "5",
+    "price": "525000",
+    "predicted_price": "531380.0",
+    "id": "80335290"
+  },
+  {
+    "size": "157",
+    "year": "2005",
+    "rooms": "5",
+    "price": "675000",
+    "predicted_price": "662340.0",
+    "id": "21872824"
+  },
+  {
+    "size": "127",
+    "year": "2024",
+    "rooms": "5",
+    "price": "580000",
+    "predicted_price": "580000.0",
+    "id": "21678295"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "63167620"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "44884329"
+  },
+  {
+    "size": "124",
+    "year": "2018",
+    "rooms": "4",
+    "price": "595000",
+    "predicted_price": "594696.0",
+    "id": "20219095"
+  },
+  {
+    "size": "126",
+    "year": "2019",
+    "rooms": "5",
+    "price": "449000",
+    "predicted_price": "454440.0",
+    "id": "80336554"
+  },
+  {
+    "size": "160",
+    "year": "1995",
+    "rooms": "4",
+    "price": "568000",
+    "predicted_price": "568000.0",
+    "id": "555932"
+  },
+  {
+    "size": "155",
+    "year": "1994",
+    "rooms": "4",
+    "price": "378000",
+    "predicted_price": "386420.0",
+    "id": "564121"
+  },
+  {
+    "size": "125",
+    "year": "1995",
+    "rooms": "5",
+    "price": "585000",
+    "predicted_price": "585000.0",
+    "id": "20617600"
+  },
+  {
+    "size": "111",
+    "year": "1995",
+    "rooms": "5",
+    "price": "618000",
+    "predicted_price": "615020.0",
+    "id": "80335485"
+  },
+  {
+    "size": "100",
+    "year": "2024",
+    "rooms": "4",
+    "price": "499000",
+    "predicted_price": "498400.0",
+    "id": "2255662"
+  },
+  {
+    "size": "94",
+    "year": "2020",
+    "rooms": "4",
+    "price": "635000",
+    "predicted_price": "635000.0",
+    "id": "21822292"
+  },
+  {
+    "size": "98",
+    "year": "2024",
+    "rooms": "4",
+    "price": "469000",
+    "predicted_price": "469600.0",
+    "id": "66092628"
+  },
+  {
+    "size": "135",
+    "year": "1993",
+    "rooms": "5",
+    "price": "799000",
+    "predicted_price": "799000.0",
+    "id": "77676"
+  },
+  {
+    "size": "150",
+    "year": "2002",
+    "rooms": "4",
+    "price": "575000",
+    "predicted_price": "577580.0",
+    "id": "20118604"
+  },
+  {
+    "size": "139",
+    "year": "1951",
+    "rooms": "5",
+    "price": "418000",
+    "predicted_price": "425620.0",
+    "id": "2254354"
+  },
+  {
+    "size": "107",
+    "year": "2011",
+    "rooms": "4",
+    "price": "419900",
+    "predicted_price": "424202.0",
+    "id": "20632415"
+  },
+  {
+    "size": "125",
+    "year": "1979",
+    "rooms": "5",
+    "price": "325000",
+    "predicted_price": "334480.0",
+    "id": "80335510"
+  },
+  {
+    "size": "124",
+    "year": "2024",
+    "rooms": "5",
+    "price": "669000",
+    "predicted_price": "669000.0",
+    "id": "60290166"
+  },
+  {
+    "size": "129",
+    "year": "2024",
+    "rooms": "5",
+    "price": "662000",
+    "predicted_price": "658720.0",
+    "id": "58963189"
+  },
+  {
+    "size": "104",
+    "year": "2024",
+    "rooms": "4",
+    "price": "579800",
+    "predicted_price": "578184.0",
+    "id": "21846994"
+  },
+  {
+    "size": "153",
+    "year": "1979",
+    "rooms": "5",
+    "price": "725000",
+    "predicted_price": "725000.0",
+    "id": "80337425"
+  },
+  {
+    "size": "88",
+    "year": "2020",
+    "rooms": "4",
+    "price": "386000",
+    "predicted_price": "386000.0",
+    "id": "20136296"
+  },
+  {
+    "size": "114",
+    "year": "2023",
+    "rooms": "5",
+    "price": "469000",
+    "predicted_price": "469000.0",
+    "id": "30569773"
+  },
+  {
+    "size": "141",
+    "year": "2020",
+    "rooms": "5",
+    "price": "595000",
+    "predicted_price": "597220.0",
+    "id": "80337085"
+  },
+  {
+    "size": "142",
+    "year": "2003",
+    "rooms": "5",
+    "price": "590000",
+    "predicted_price": "586100.0",
+    "id": "20341139"
+  },
+  {
+    "size": "146",
+    "year": "2014",
+    "rooms": "4",
+    "price": "709000",
+    "predicted_price": "700660.0",
+    "id": "20065116"
+  },
+  {
+    "size": "100",
+    "year": "1941",
+    "rooms": "5",
+    "price": "520000",
+    "predicted_price": "514060.0",
+    "id": "20252279"
+  },
+  {
+    "size": "180",
+    "year": "2002",
+    "rooms": "5",
+    "price": "489000",
+    "predicted_price": "494300.0",
+    "id": "2255642"
+  },
+  {
+    "size": "143",
+    "year": "2009",
+    "rooms": "5",
+    "price": "525000",
+    "predicted_price": "531380.0",
+    "id": "80335290"
+  },
+  {
+    "size": "157",
+    "year": "2005",
+    "rooms": "5",
+    "price": "675000",
+    "predicted_price": "662340.0",
+    "id": "21872824"
+  },
+  {
+    "size": "127",
+    "year": "2024",
+    "rooms": "5",
+    "price": "580000",
+    "predicted_price": "580000.0",
+    "id": "21678295"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "63167620"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "44884329"
+  },
+  {
+    "size": "124",
+    "year": "2018",
+    "rooms": "4",
+    "price": "595000",
+    "predicted_price": "594696.0",
+    "id": "20219095"
+  },
+  {
+    "size": "126",
+    "year": "2019",
+    "rooms": "5",
+    "price": "449000",
+    "predicted_price": "454440.0",
+    "id": "80336554"
+  },
+  {
+    "size": "160",
+    "year": "1995",
+    "rooms": "4",
+    "price": "568000",
+    "predicted_price": "568000.0",
+    "id": "555932"
+  },
+  {
+    "size": "155",
+    "year": "1994",
+    "rooms": "4",
+    "price": "378000",
+    "predicted_price": "386420.0",
+    "id": "564121"
+  },
+  {
+    "size": "125",
+    "year": "1995",
+    "rooms": "5",
+    "price": "585000",
+    "predicted_price": "585000.0",
+    "id": "20617600"
+  },
+  {
+    "size": "111",
+    "year": "1995",
+    "rooms": "5",
+    "price": "618000",
+    "predicted_price": "615020.0",
+    "id": "80335485"
+  },
+  {
+    "size": "100",
+    "year": "2024",
+    "rooms": "4",
+    "price": "499000",
+    "predicted_price": "498400.0",
+    "id": "2255662"
+  },
+  {
+    "size": "94",
+    "year": "2020",
+    "rooms": "4",
+    "price": "635000",
+    "predicted_price": "635000.0",
+    "id": "21822292"
+  },
+  {
+    "size": "98",
+    "year": "2024",
+    "rooms": "4",
+    "price": "469000",
+    "predicted_price": "469600.0",
+    "id": "66092628"
+  },
+  {
+    "size": "135",
+    "year": "1993",
+    "rooms": "5",
+    "price": "799000",
+    "predicted_price": "799000.0",
+    "id": "77676"
+  },
+  {
+    "size": "150",
+    "year": "2002",
+    "rooms": "4",
+    "price": "575000",
+    "predicted_price": "577580.0",
+    "id": "20118604"
+  },
+  {
+    "size": "139",
+    "year": "1951",
+    "rooms": "5",
+    "price": "418000",
+    "predicted_price": "425620.0",
+    "id": "2254354"
+  },
+  {
+    "size": "107",
+    "year": "2011",
+    "rooms": "4",
+    "price": "419900",
+    "predicted_price": "424202.0",
+    "id": "20632415"
+  },
+  {
+    "size": "125",
+    "year": "1979",
+    "rooms": "5",
+    "price": "325000",
+    "predicted_price": "334480.0",
+    "id": "80335510"
+  },
+  {
+    "size": "124",
+    "year": "2024",
+    "rooms": "5",
+    "price": "669000",
+    "predicted_price": "669000.0",
+    "id": "60290166"
+  },
+  {
+    "size": "129",
+    "year": "2024",
+    "rooms": "5",
+    "price": "662000",
+    "predicted_price": "658720.0",
+    "id": "58963189"
+  },
+  {
+    "size": "104",
+    "year": "2024",
+    "rooms": "4",
+    "price": "579800",
+    "predicted_price": "578184.0",
+    "id": "21846994"
+  },
+  {
+    "size": "153",
+    "year": "1979",
+    "rooms": "5",
+    "price": "725000",
+    "predicted_price": "725000.0",
+    "id": "80337425"
+  },
+  {
+    "size": "88",
+    "year": "2020",
+    "rooms": "4",
+    "price": "386000",
+    "predicted_price": "386000.0",
+    "id": "20136296"
+  },
+  {
+    "size": "114",
+    "year": "2023",
+    "rooms": "5",
+    "price": "469000",
+    "predicted_price": "469000.0",
+    "id": "30569773"
+  },
+  {
+    "size": "141",
+    "year": "2020",
+    "rooms": "5",
+    "price": "595000",
+    "predicted_price": "597220.0",
+    "id": "80337085"
+  },
+  {
+    "size": "142",
+    "year": "2003",
+    "rooms": "5",
+    "price": "590000",
+    "predicted_price": "586100.0",
+    "id": "20341139"
+  },
+  {
+    "size": "146",
+    "year": "2014",
+    "rooms": "4",
+    "price": "709000",
+    "predicted_price": "700660.0",
+    "id": "20065116"
+  },
+  {
+    "size": "100",
+    "year": "1941",
+    "rooms": "5",
+    "price": "520000",
+    "predicted_price": "514060.0",
+    "id": "20252279"
+  },
+  {
+    "size": "180",
+    "year": "2002",
+    "rooms": "5",
+    "price": "489000",
+    "predicted_price": "494300.0",
+    "id": "2255642"
+  },
+  {
+    "size": "143",
+    "year": "2009",
+    "rooms": "5",
+    "price": "525000",
+    "predicted_price": "531380.0",
+    "id": "80335290"
+  },
+  {
+    "size": "157",
+    "year": "2005",
+    "rooms": "5",
+    "price": "675000",
+    "predicted_price": "662340.0",
+    "id": "21872824"
+  },
+  {
+    "size": "127",
+    "year": "2024",
+    "rooms": "5",
+    "price": "580000",
+    "predicted_price": "580000.0",
+    "id": "21678295"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "63167620"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "44884329"
+  },
+  {
+    "size": "124",
+    "year": "2018",
+    "rooms": "4",
+    "price": "595000",
+    "predicted_price": "594696.0",
+    "id": "20219095"
+  },
+  {
+    "size": "126",
+    "year": "2019",
+    "rooms": "5",
+    "price": "449000",
+    "predicted_price": "454440.0",
+    "id": "80336554"
+  },
+  {
+    "size": "160",
+    "year": "1995",
+    "rooms": "4",
+    "price": "568000",
+    "predicted_price": "568000.0",
+    "id": "555932"
+  },
+  {
+    "size": "155",
+    "year": "1994",
+    "rooms": "4",
+    "price": "378000",
+    "predicted_price": "386420.0",
+    "id": "564121"
+  },
+  {
+    "size": "125",
+    "year": "1995",
+    "rooms": "5",
+    "price": "585000",
+    "predicted_price": "585000.0",
+    "id": "20617600"
+  },
+  {
+    "size": "111",
+    "year": "1995",
+    "rooms": "5",
+    "price": "618000",
+    "predicted_price": "615020.0",
+    "id": "80335485"
+  },
+  {
+    "size": "100",
+    "year": "2024",
+    "rooms": "4",
+    "price": "499000",
+    "predicted_price": "498400.0",
+    "id": "2255662"
+  },
+  {
+    "size": "94",
+    "year": "2020",
+    "rooms": "4",
+    "price": "635000",
+    "predicted_price": "635000.0",
+    "id": "21822292"
+  },
+  {
+    "size": "98",
+    "year": "2024",
+    "rooms": "4",
+    "price": "469000",
+    "predicted_price": "469600.0",
+    "id": "66092628"
+  },
+  {
+    "size": "135",
+    "year": "1993",
+    "rooms": "5",
+    "price": "799000",
+    "predicted_price": "799000.0",
+    "id": "77676"
+  },
+  {
+    "size": "150",
+    "year": "2002",
+    "rooms": "4",
+    "price": "575000",
+    "predicted_price": "577580.0",
+    "id": "20118604"
+  },
+  {
+    "size": "139",
+    "year": "1951",
+    "rooms": "5",
+    "price": "418000",
+    "predicted_price": "425620.0",
+    "id": "2254354"
+  },
+  {
+    "size": "107",
+    "year": "2011",
+    "rooms": "4",
+    "price": "419900",
+    "predicted_price": "424202.0",
+    "id": "20632415"
+  },
+  {
+    "size": "125",
+    "year": "1979",
+    "rooms": "5",
+    "price": "325000",
+    "predicted_price": "334480.0",
+    "id": "80335510"
+  },
+  {
+    "size": "124",
+    "year": "2024",
+    "rooms": "5",
+    "price": "669000",
+    "predicted_price": "669000.0",
+    "id": "60290166"
+  },
+  {
+    "size": "129",
+    "year": "2024",
+    "rooms": "5",
+    "price": "662000",
+    "predicted_price": "658720.0",
+    "id": "58963189"
+  },
+  {
+    "size": "104",
+    "year": "2024",
+    "rooms": "4",
+    "price": "579800",
+    "predicted_price": "578184.0",
+    "id": "21846994"
+  },
+  {
+    "size": "153",
+    "year": "1979",
+    "rooms": "5",
+    "price": "725000",
+    "predicted_price": "725000.0",
+    "id": "80337425"
+  },
+  {
+    "size": "88",
+    "year": "2020",
+    "rooms": "4",
+    "price": "386000",
+    "predicted_price": "386000.0",
+    "id": "20136296"
+  },
+  {
+    "size": "114",
+    "year": "2023",
+    "rooms": "5",
+    "price": "469000",
+    "predicted_price": "469000.0",
+    "id": "30569773"
+  },
+  {
+    "size": "141",
+    "year": "2020",
+    "rooms": "5",
+    "price": "595000",
+    "predicted_price": "597220.0",
+    "id": "80337085"
+  },
+  {
+    "size": "142",
+    "year": "2003",
+    "rooms": "5",
+    "price": "590000",
+    "predicted_price": "586100.0",
+    "id": "20341139"
+  },
+  {
+    "size": "146",
+    "year": "2014",
+    "rooms": "4",
+    "price": "709000",
+    "predicted_price": "700660.0",
+    "id": "20065116"
+  },
+  {
+    "size": "100",
+    "year": "1941",
+    "rooms": "5",
+    "price": "520000",
+    "predicted_price": "514060.0",
+    "id": "20252279"
+  },
+  {
+    "size": "180",
+    "year": "2002",
+    "rooms": "5",
+    "price": "489000",
+    "predicted_price": "494300.0",
+    "id": "2255642"
+  },
+  {
+    "size": "143",
+    "year": "2009",
+    "rooms": "5",
+    "price": "525000",
+    "predicted_price": "531380.0",
+    "id": "80335290"
+  },
+  {
+    "size": "157",
+    "year": "2005",
+    "rooms": "5",
+    "price": "675000",
+    "predicted_price": "662340.0",
+    "id": "21872824"
+  },
+  {
+    "size": "127",
+    "year": "2024",
+    "rooms": "5",
+    "price": "580000",
+    "predicted_price": "580000.0",
+    "id": "21678295"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "63167620"
+  },
+  {
+    "size": "114",
+    "year": "2024",
+    "rooms": "5",
+    "price": "569000",
+    "predicted_price": "569000.0",
+    "id": "44884329"
+  },
+  {
+    "size": "124",
+    "year": "2018",
+    "rooms": "4",
+    "price": "595000",
+    "predicted_price": "594696.0",
+    "id": "20219095"
+  },
+  {
+    "size": "126",
+    "year": "2019",
+    "rooms": "5",
+    "price": "449000",
+    "predicted_price": "454440.0",
+    "id": "80336554"
+  },
+  {
+    "size": "160",
+    "year": "1995",
+    "rooms": "4",
+    "price": "568000",
+    "predicted_price": "568000.0",
+    "id": "555932"
+  },
+  {
+    "size": "155",
+    "year": "1994",
+    "rooms": "4",
+    "price": "378000",
+    "predicted_price": "386420.0",
+    "id": "564121"
+  },
+  {
+    "size": "125",
+    "year": "1995",
+    "rooms": "5",
+    "price": "585000",
+    "predicted_price": "585000.0",
+    "id": "20617600"
+  },
+  {
+    "size": "111",
+    "year": "1995",
+    "rooms": "5",
+    "price": "618000",
+    "predicted_price": "615020.0",
+    "id": "80335485"
+  },
+  {
+    "size": "100",
+    "year": "2024",
+    "rooms": "4",
+    "price": "499000",
+    "predicted_price": "498400.0",
+    "id": "2255662"
+  },
+  {
+    "size": "94",
+    "year": "2020",
+    "rooms": "4",
+    "price": "635000",
+    "predicted_price": "635000.0",
+    "id": "21822292"
+  },
+  {
+    "size": "98",
+    "year": "2024",
+    "rooms": "4",
+    "price": "469000",
+    "predicted_price": "469600.0",
+    "id": "66092628"
+  },
+  {
+    "size": "135",
+    "year": "1993",
+    "rooms": "5",
+    "price": "799000",
+    "predicted_price": "799000.0",
+    "id": "77676"
+  },
+  {
+    "size": "150",
+    "year": "2002",
+    "rooms": "4",
+    "price": "575000",
+    "predicted_price": "577580.0",
+    "id": "20118604"
+  },
+  {
+    "size": "139",
+    "year": "1951",
+    "rooms": "5",
+    "price": "418000",
+    "predicted_price": "425620.0",
+    "id": "2254354"
+  },
+  {
+    "size": "107",
+    "year": "2011",
+    "rooms": "4",
+    "price": "419900",
+    "predicted_price": "424202.0",
+    "id": "20632415"
+  },
+  {
+    "size": "125",
+    "year": "1979",
+    "rooms": "5",
+    "price": "325000",
+    "predicted_price": "334480.0",
+    "id": "80335510"
+  },
+  {
+    "size": "124",
+    "year": "2024",
+    "rooms": "5",
+    "price": "669000",
+    "predicted_price": "669000.0",
+    "id": "60290166"
+  },
+  {
+    "size": "129",
+    "year": "2024",
+    "rooms": "5",
+    "price": "662000",
+    "predicted_price": "658720.0",
+    "id": "58963189"
+  },
+  {
+    "size": "104",
+    "year": "2024",
+    "rooms": "4",
+    "price": "579800",
+    "predicted_price": "578184.0",
+    "id": "21846994"
+  }
+]
