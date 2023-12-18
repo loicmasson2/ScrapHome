@@ -79,4 +79,10 @@ https://testdriven.io/blog/fastapi-docker-traefik/
 ## Frontend
 I am using Nuxt with Bun. 
 I always wanted to play with Next/Nuxt and to discover Vue.  
+
+The UI is a list of the homes I scraped + a map with the markers.
+The color of the markers is either:
+- green - potentially a good deal
+- red - potentially a bad deal
+
 ![Animation.gif](Animation.gif)
