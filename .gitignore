@@ -5,3 +5,5 @@
 
 ./packages/frontend/.nuxt
 ./packages/frontend/node_modules
+
+./packages/next/node_modules

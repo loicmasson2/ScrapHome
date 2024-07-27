@@ -3,10 +3,11 @@ import json
 from bs4 import BeautifulSoup
 import re
 
-home_class = "Lloosjx"
-home_link_class = "e1re311t2"
-pagination_button_class = "em5t2eg0"
+home_class = "kfALKRz"
+home_link_class = "e3qdyeq2"
+pagination_button_class = "ei0wjpk0 "
 def get_ads(soup):
+    print("Getting ads...")
     ads = soup.find_all("div", class_=home_class)
     results = []
     for home in ads:
@@ -30,9 +31,9 @@ page_size = 50
 
 pagination = soup.find(id="pagination").find_all("button", class_=pagination_button_class)
 max_page = 1
-for button in pagination:
-    if button.text.isdigit():
-        max_page = max(max_page, int(button.text))
+# for button in pagination:
+#     if button.text.isdigit():
+        # max_page = max(max_page, int(button.text))
 
 final_results = []
 for i in range(1, max_page + 1):

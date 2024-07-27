@@ -51,9 +51,12 @@ for home in data:
     image_url = (
         test_url[: test_url.find("?")] + "/kuvat" + test_url[test_url.find("?") :]
     )
+    print("IMAGE URLS")
     print(image_url)
     new_page = requests.get(image_url)
     new_soup = BeautifulSoup(new_page.content, "html.parser")
+    images2 = soup.find_all("img")
+    print(images2)
     scripts = soup.find_all("script")
     start = '"images":'
     end = '"periodicCharges":'
@@ -62,6 +65,8 @@ for home in data:
     # cut what is before since it will contain my end of object
     # easier that way to just pick the 1st occurrence
     substring = s[start_index:]
+    print("substring")
+    print(substring)
     end_of_object = substring.find('}}},"')
     full_images_string = "{" + substring[: end_of_object + 3] + "}"
     home["images"] = json.loads(full_images_string)

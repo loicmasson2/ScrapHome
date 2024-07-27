@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 # Load the dataset
 data = pd.read_csv("csvfile.csv")
-# share of the data
+# shape of the data
 # {
 #     "size": "124",
 #     "year": "2024",
