@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { db } from "~/server/db";
-import { SignedIn, SignedOut } from "@clerk/nextjs";
+// import { SignedIn, SignedOut } from "@clerk/nextjs";
 import Image from "next/image";
 import { getMyImages } from "~/server/queries";
 
@@ -32,14 +32,14 @@ async function Images() {
 export default async function HomePage() {
   return (
     <main className="">
-      <SignedOut>
+      {/*<SignedOut>*/}
         <div className="h-full, w-full text-center text-2xl">
           Please sign in above
         </div>
-      </SignedOut>
-      <SignedIn>
-        <Images />
-      </SignedIn>
+      {/*</SignedOut>*/}
+      {/*<SignedIn>*/}
+      {/*  <Images />*/}
+      {/*</SignedIn>*/}
     </main>
   );
 }
