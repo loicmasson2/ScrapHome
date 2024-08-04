@@ -2,88 +2,75 @@
 import { useState } from "react";
 import { House } from "~/lib/definitions";
 import MapboxMap from "~/app/components/mapbox-map";
-import { ListIcon, MapIcon } from "lucide-react";
+import { ListIcon, MapIcon, Square } from "lucide-react";
 
-const listIcon = () => {
+const MapView = (props: { data: House[] }) => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={1.5}
-      stroke="currentColor"
-      className="size-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
-      />
-    </svg>
+    <div className={"flex h-screen w-screen"}>
+      <MapboxMap data={props.data} />
+    </div>
   );
 };
-
-const mapIcon = () => {
+<Square />;
+const ListView = (props: { data: House[] }) => {
+  console.log(props);
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={1.5}
-      stroke="currentColor"
-      className="size-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z"
-      />
-    </svg>
+    <div id={"list"} className="md:flex md:flex-row md:flex-wrap">
+      {props.data.map((house: House) => {
+        return (
+          <div className="m-4 rounded-xl bg-base-300 shadow-md md:flex md:max-w-xl">
+            <figure className={"rounded-xl md:basis-1/3"}>
+              <img
+                className={
+                  "rounded-t-xl object-cover md:rounded-l-xl md:rounded-r-none h-full"
+                }
+                src={`https:${Object.values(house.images.images)[0].image.uri.replace("{imageParameters}", "fit,q80")}`}
+                alt="Album"
+              />
+            </figure>
+            <div className="flex flex-col end-2 justify-between px-4 py-4 md:py-2 gap-4 md:gap-2 md:basis-2/3">
+              <h2 className="font-bold">{house.summary}</h2>
+              <p className={"font-semibold"}>{Number(house.price).toLocaleString()} €</p>
+              <div id={"info"} className={"flex flex-row justify-between"}>
+                <div className={"flex flex-row gap-1"}>
+                  <Square className={"w-8"} />
+                  <p>{house.rooms}</p>
+                </div>
+                <p>{house.size} m²</p>
+                <p>{house.year}</p>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
   );
 };
 
 export default function HouseDisplay(props: { data: House[] }) {
-  const [toggleViewMode, setToggleViewMode] = useState(false);
+  const [toggleViewMode, setToggleViewMode] = useState(true);
   return (
     <div>
-      <div className="flex justify-end p-5">
+      <div className="flex justify-end p-5 items-center align-middle">
         <label className="swap">
           <input
             type="checkbox"
             onClick={() => setToggleViewMode(!toggleViewMode)}
           />
-          <div className="swap-on flex">
-            <MapIcon />
+          <div className="swap-on flex gap-2">
+            <p> Switch to the map view</p>
+            <MapIcon className={"mt-0.5"} />
           </div>
-          <div className="swap-off flex">
-            <ListIcon />
+          <div className="swap-off flex gap-2">
+            <p>Switch to the list view</p>
+            <ListIcon className={"mt-0.5"} />
           </div>
         </label>
       </div>
       {toggleViewMode ? (
-        <div>
-          {props.data.map((house: House) => {
-            return (
-              <div className="m-2 flex gap-4 rounded p-4">
-                <figure className={"basis-1/3"}>
-                  <img
-                    className={"object-cover"}
-                    src={`https:${Object.values(house.images.images)[0].image.uri.replace("{imageParameters}", "fit,q80")}`}
-                    alt="Album"
-                  />
-                </figure>
-                <div className="basis-2/3 flex-col gap-4">
-                  <h2 className="">{house.summary}</h2>
-                  <p>{house.price}</p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        <ListView data={props.data} />
       ) : (
-        <div className={"flex h-screen w-screen"}>
-          <MapboxMap data={props.data}/>
-        </div>
+        <MapView data={props.data} />
       )}
     </div>
   );

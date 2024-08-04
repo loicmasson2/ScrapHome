@@ -3,6 +3,7 @@
 Automatically find your next home!
 A tool that gets data from home ads boards, analyse it and displays it!
 
+
 # Organisation in packages
 
 ## Crawler
@@ -62,33 +63,20 @@ Then serve all to the frontend.
 https://testdriven.io/blog/fastapi-docker-traefik/
 
 ## Frontend
-I am using Nuxt with Bun.
-I always wanted to play with Next/Nuxt and to discover Vue.
+I am using Next with.
+I always wanted to play with Next.
 
 The UI is a list of the homes I scraped + a map with the markers.
 The color of the markers is either:
-- green - potentially a good deal
+- green - potentially a good deal <- have to reimplement that
 - red - potentially a bad deal
 
 ![Animation.gif](Animation.gif)
 
 # Roadmap
 
-1. Get more infos for home -> Done
-2. Store them in a big file -> Done
-3. Switch from file storage to use PostgreSQL -> Done
-4. Write simple fastapi to serve the data, with pagination, sorting -> Not done
-5. Write simple vue front to call fastapi endpoints -> Done
-   6. Have search, pagination, sorting and a map -> Not done
-7. Train simple random forest for best home -> Done
-
-## Stretch goals
-1. Simplify the extraction and the feeding of the database and the model. 
-   2. Right now I am moving json,csv files around.
-3. Add search + sorting in the frontend
-4. Make the map more useful
-   5. popup when hovering the marker
-6. Collect more data
-7. Get an alert if a deal is detected
+1. Have list of home with a harcoded file
+2. Click on a home to go to a dedicated page
+3. Store the static file in PosgresSQL
 
 

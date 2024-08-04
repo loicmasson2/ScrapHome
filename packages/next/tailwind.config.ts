@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import catppuccin from '@catppuccin/daisyui'
 import daisyui from "daisyui";
 
 const config: Config = {
@@ -17,6 +18,11 @@ const config: Config = {
       },
     },
   },
-  plugins: [daisyui],
+  plugins: [require("@tailwindcss/typography"), daisyui],
+  daisyui: {
+    themes : [
+        catppuccin("macchiato")
+    ]
+  }
 };
 export default config;
