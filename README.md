@@ -4,8 +4,7 @@ Automatically find your next home.
 A tool that gets data from home ads boards, analyse it and displays it!
 Not polished but is working. This project is used to play with random technologies.
 
-Current url is there
-https://scraphome-4qi3fiijua-lz.a.run.app/home  
+Current url is there https://scraphome-4qi3fiijua-lz.a.run.app/houses
 
 The current process is:
 1. Run commands from the crawler package
