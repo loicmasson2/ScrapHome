@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import { House } from "~/lib/definitions";
 import MapboxMap from "~/app/components/mapbox-map";
-import { ListIcon, MapIcon, Square } from "lucide-react";
+import { ListIcon, MapIcon, BedDouble } from "lucide-react";
 
 const MapView = (props: { data: House[] }) => {
   return (
@@ -11,14 +12,13 @@ const MapView = (props: { data: House[] }) => {
     </div>
   );
 };
-<Square />;
+
 const ListView = (props: { data: House[] }) => {
-  console.log(props);
   return (
     <div id={"list"} className="md:flex md:flex-row md:flex-wrap">
       {props.data.map((house: House) => {
         return (
-          <div className="m-4 rounded-xl bg-base-300 shadow-md md:flex md:max-w-xl">
+          <Link href={`/house/${house.id}`} key={house.id} className="m-4 rounded-xl bg-base-300 shadow-md md:flex md:max-w-xl">
             <figure className={"rounded-xl md:basis-1/3"}>
               <img
                 className={
@@ -33,14 +33,14 @@ const ListView = (props: { data: House[] }) => {
               <p className={"font-semibold"}>{Number(house.price).toLocaleString()} €</p>
               <div id={"info"} className={"flex flex-row justify-between"}>
                 <div className={"flex flex-row gap-1"}>
-                  <Square className={"w-8"} />
+                  <BedDouble className={"w-8"} />
                   <p>{house.rooms}</p>
                 </div>
                 <p>{house.size} m²</p>
                 <p>{house.year}</p>
               </div>
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>
