@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@catppuccin/daisyui": "^1.1.1",
+    "@tailwindcss/typography": "^0.5.13",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
