@@ -1,21 +1,21 @@
 import { Modal } from "~/app/@modal/(.)house/[id]/modal";
-import { fakeDataForOneHouse } from "~/app/houses/fakeData";
 import { House } from "~/lib/definitions";
 import { BedDouble } from "lucide-react";
 import Link from "next/link";
+import {getLocalDataForOneHouse} from "~/lib/localdata";
 
 export default async function HouseModal({
   params: { id: houseId },
 }: {
   params: { id: string };
 }) {
-  const house: House = await fakeDataForOneHouse(houseId);
+  const house: House = await getLocalDataForOneHouse(houseId);
 
   return (
     <Modal>
       <div
         key={house.id}
-        className="m-4 rounded-xl bg-base-300 shadow-md md:flex md:max-w-xl"
+        className="m-6 rounded-xl bg-base-300 shadow-md md:flex md:max-w-xl md:flex-col"
       >
         <figure className={"rounded-xl md:basis-1/3"}>
           <img

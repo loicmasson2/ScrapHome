@@ -1,12 +1,12 @@
-import { fakeDataForOneHouse } from "~/app/houses/fakeData";
 import { House } from "~/lib/definitions";
+import { getLocalDataForOneHouse } from "~/lib/localdata";
 
-export default async function HomePage({params}: { params: { id: string } }) {
-    const house: House = await fakeDataForOneHouse(params.id);
+export default async function HomePage({ params }: { params: { id: string } }) {
+  const house: House = await getLocalDataForOneHouse(params.id);
 
-    return (
-        <div>
-            <p>FULL PAGE{params.id}</p>
-        </div>
-    );
+  return (
+    <div>
+      <p>FULL PAGE{params.id}</p>
+    </div>
+  );
 }
