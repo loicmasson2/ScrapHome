@@ -1,10 +1,12 @@
 import fsPromises from "fs/promises";
 import path from "path";
 import { House } from "~/lib/definitions";
+// import * as process from "node:process";
 
 export async function getLocalData() {
+  console.info("HELLO", process.cwd())
   // Get the path of the json file
-  const filePath = path.join(process.cwd(), "json/data.json");
+  const filePath = "./src/app/json/data.json";
   // Read the json file
   const jsonData = await fsPromises.readFile(filePath);
   // Parse data as json
@@ -15,8 +17,10 @@ export async function getLocalData() {
 }
 
 export async function getLocalDataForOneHouse(id: string) {
+  console.info("HELLO", process.cwd())
   // Get the path of the json file
-  const filePath = path.join(process.cwd(), "json/data.json");
+  const filePath = "./src/app/json/data.json";
+
   // Read the json file
   const jsonData = await fsPromises.readFile(filePath);
   // Parse data as json
