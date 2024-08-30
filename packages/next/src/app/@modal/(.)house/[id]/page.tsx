@@ -2,7 +2,7 @@ import { Modal } from "~/app/@modal/(.)house/[id]/modal";
 import { House } from "~/lib/definitions";
 import { BedDouble } from "lucide-react";
 import Link from "next/link";
-import {getLocalDataForOneHouse} from "~/lib/localdata";
+import { getLocalDataForOneHouse } from "~/lib/localdata";
 
 export default async function HouseModal({
   params: { id: houseId },
